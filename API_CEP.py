@@ -1,6 +1,6 @@
 import requests
 
-cep =  70650359 #"01001000"  # Exemplo de CEP (Praça da Sé - SP)
+cep =  70083900 #"01001000"  # Exemplo de CEP (Praça da Sé - SP)
 url = f"https://viacep.com.br/ws/{cep}/json/"
 
 response = requests.get(url)
